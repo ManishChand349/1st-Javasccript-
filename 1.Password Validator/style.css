@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #000;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 1px 1px 1113px #4835f0;
+  background: linear-gradient(45deg, #ff000071,
+   #686899ab, #e039d2);
+}
+label {
+  font-size: 20px;
+  color: #fff;
+}
+#new-password,
+#confirm-password {
+  padding: 9px;
+  font-size: 20px;
+  font-weight: 500;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+input:focus {
+  outline: none;
+}
+#btn {
+  padding: 9px 35px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 35px;
+  font-size: 25px;
+  cursor: pointer;
+  color: #fff;
+  /* margin-top: 1px; */
+}
