@@ -1,0 +1,17 @@
+body{
+  height: 2000px;
+}
+#progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #f10f0f;
+}
+
+#progress-bar {
+  height: 100%;
+  background-color: #3e0bf7;
+  width: 0;
+}
